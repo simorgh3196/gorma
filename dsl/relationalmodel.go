@@ -9,8 +9,8 @@ import (
 	"github.com/goadesign/goa/design"
 	"github.com/goadesign/goa/dslengine"
 	"github.com/goadesign/goa/goagen/codegen"
-	"github.com/goadesign/gorma"
 	"github.com/jinzhu/inflection"
+	"github.com/simorgh3196/gorma"
 )
 
 // Model is the DSL that represents a Relational Model.

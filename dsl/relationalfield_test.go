@@ -1,8 +1,8 @@
 package dsl_test
 
 import (
-	"github.com/goadesign/gorma"
-	gdsl "github.com/goadesign/gorma/dsl"
+	"github.com/simorgh3196/gorma"
+	gdsl "github.com/simorgh3196/gorma/dsl"
 
 	. "github.com/goadesign/goa/design"
 	. "github.com/goadesign/goa/design/apidsl"
