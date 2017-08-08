@@ -131,7 +131,7 @@ func (g *Generator) generateUserTypes(outdir string, api *design.APIDefinition) 
 				fmt.Println(err)
 				return err
 			}
-			err = utWr.Format()
+			err = utWr.FormatCode()
 			if err != nil {
 				fmt.Println(err)
 			}
@@ -194,7 +194,7 @@ func (g *Generator) generateUserHelpers(outdir string, api *design.APIDefinition
 				fmt.Println(err)
 				return err
 			}
-			err = utWr.Format()
+			err = utWr.FormatCode()
 			if err != nil {
 				fmt.Println(err)
 			}
